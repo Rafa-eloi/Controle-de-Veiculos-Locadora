@@ -19,12 +19,12 @@ class CreateVeiculosTable extends Migration
             $table->string('modelo');
             $table->string('placa');
             $table->string('estado');
-            $table->string('ano_fabricacao');
-            $table->integer('km_rodado');
-            $table->integer('crlv');
-            $table->integer('renavam');
+            $table->bigInteger('ano_fabricacao');
+            $table->bigInteger('km_rodado');
+            $table->bigInteger('crlv');
+            $table->bigInteger('renavam');
             $table->string('chassi');
-            $table->enum('alugado', ['sim', 'nao']);
+            $table->string('disponivel');
             $table->decimal('valor_diaria', 5,2);
 
             $table->timestamps();
