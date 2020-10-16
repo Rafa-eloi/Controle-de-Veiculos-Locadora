@@ -23,8 +23,8 @@ class CreateClientesTable extends Migration
             $table->string('bairro');
             $table->string('rua');
             $table->string('numero');
-            $table->integer('cep');
-            $table->integer('cnh');
+            $table->string('cep');
+            $table->bigInteger('cnh');
 
             $table->timestamps();
         });
