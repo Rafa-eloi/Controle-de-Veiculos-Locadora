@@ -36,6 +36,7 @@
         </div>
         <div class="row">
             <a class="btn blue" href="{{ route('admin.clientes.adicionar') }}">Adicionar</a>
+            <a class="btn blue" href="{{ route('admin.inicio') }}">Voltar</a>
         </div>
 
     </div>
