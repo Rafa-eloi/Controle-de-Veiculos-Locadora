@@ -15,8 +15,10 @@ class CreateAluguelsTable extends Migration
     {
         Schema::create('aluguels', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('cliente');
-            $table->string('veiculo');
+            $table->integer('cliente_id')->unsigned();
+            $table->foreign('cliente_id')->references('id')->on('clientes')->onDelete('cascade');
+            $table->integer('veiculo_id')->unsigned();
+            $table->foreign('veiculo_id')->references('id')->on('veiculos')->onDelete('cascade');
             $table->date('data_devolucao');
             $table->decimal('valor', 5,2);
 

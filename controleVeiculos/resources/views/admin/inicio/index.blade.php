@@ -11,7 +11,7 @@
         <div class="row">
             <a class="btn deep-orange" href="{{ route('admin.clientes') }}">Adicionar/Consultar Clientes</a>
             <a class="btn deep-orange" href="{{ route('admin.veiculos') }}">Adicionar/Consultar Veículos</a>
-            <a class="btn deep-orange" href="{{ route('admin.veiculos') }}">Realizar Pedidos de Aluguel</a>
+            <a class="btn deep-orange" href="{{ route('admin.aluguel') }}">Realizar Pedidos de Aluguel</a>
         </div>
 
     </div>
