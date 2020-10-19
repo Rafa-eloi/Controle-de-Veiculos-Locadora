@@ -5,3 +5,4 @@ Instruções:
  - No arquivo .env inserir a senha root do servidor mysql local no campo DB_PASSWORD;
  - Rodar o comando "php artisan migrate" (SEM AS ASPAS), dentro do diretório do projeto, para criar as tabelas no banco de dados.
  - Rodar o comando "php artisan serve" (SEM ASPAS), para iniciar o servidor e poder monitorar na porta 8000 do localhost.
+ - Para entrar no sistema o usuário é "admin@mail.com" e a senha "admin" (AMBOS SEM AS ASPAS).
